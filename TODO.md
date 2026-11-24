@@ -98,4 +98,4 @@ Each outcome stays open until its requested behavior is implemented with evidenc
 
 - The user explicitly authorized `POST publish` after the missing deploy configuration is fixed. Preserve the current `auto_publish=false` setting and secret scopes, target only the intended canonical checkpoint, and follow any tool confirmation. Do not copy development credentials to production.
 - If a publish fails, inspect the returned cause, fix only that cause, create a new canonical checkpoint, and retry that failed release. Never submit a duplicate while a publish is in flight or after it succeeds.
-- The final publish succeeded for checkpoint `358f33dc9afbd9d0e4d921565eeb92df95792b5e`: https://techaccess-kvfze6t5.manus.space
+- The final publish succeeded for checkpoint 
